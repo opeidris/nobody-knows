@@ -270,9 +270,9 @@
     </div>
 
     <div class="text-xl flex justify-around mt-4">
-      <a class="link mx-4 hover:underline" href="https://nobodyknows.transistor.fm/">Podcast</a>
+      <nuxt-link class="link mx-4 hover:underline" to="/podcast">Podcast</nuxt-link>
       <nuxt-link class="link mx-4 hover:underline" to="/posts">Blog</nuxt-link>
-      <nuxt-link class="link mx-4 hover:underline" to="#">About</nuxt-link>
+      <nuxt-link class="link mx-4 hover:underline" to="/about">About</nuxt-link>
     </div>
   </div>
 </template>

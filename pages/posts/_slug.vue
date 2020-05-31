@@ -58,32 +58,40 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-h1 {
+.markdown-body h1 {
   @apply text-4xl title mb-4;
 }
 
-h3 {
+.markdown-body h3 {
   @apply text-xl font-semibold pb-1;
 }
 
-p {
+.markdown-body p {
   @apply mb-4;
 }
 
-ul li {
+.markdown-body ul li {
   @apply list-disc list-inside pl-4;
 }
 
-ul,
+.markdown-body ul,
 ol {
   @apply pb-4;
 }
 
-ol li {
+.markdown-body ol li {
   @apply list-decimal list-inside pl-4;
 }
 
-img {
+.markdown-body img {
   @apply h-64 mx-auto;
+}
+
+.markdown-body a {
+  @apply text-indigo-600;
+}
+
+.markdown-body a:hover {
+  @apply underline cursor-pointer;
 }
 </style>

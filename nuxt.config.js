@@ -15,7 +15,7 @@ export default {
 			{
 				hid: 'description',
 				name: 'description',
-				content: process.env.npm_package_description || 'Nobody Knows What There Are Doing. Neither Do I'
+				content: 'Nobody Knows What There Are Doing. Neither Do I'
 			}
 		],
 		link: [ { rel: 'icon', type: 'image/x-icon', href: '/identicon.png' } ]
