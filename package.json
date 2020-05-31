@@ -1,0 +1,23 @@
+{
+  "name": "nobody-knows-what-they-are-doing",
+  "version": "1.0.0",
+  "description": "A simple blog for a simple guy",
+  "author": "thisisopeidris",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@tailwindcss/ui": "^0.3.0",
+    "frontmatter-markdown-loader": "^3.5.0",
+    "nuxt": "^2.0.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
