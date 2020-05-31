@@ -3,7 +3,7 @@
     <div class="flex flex-col items-center pt-8">
       <nuxt-link to="/" class="header text-3xl">Nobody Knows</nuxt-link>
       <div class="text-lg flex justify-around mt-2">
-        <nuxt-link class="link mx-4 hover:underline" to="#">Podcast</nuxt-link>
+        <a class="link mx-4 hover:underline" href="https://nobodyknows.transistor.fm/">Podcast</a>
         <nuxt-link class="link mx-4 hover:underline" to="/posts">Blog</nuxt-link>
         <nuxt-link class="link mx-4 hover:underline" to="#">About</nuxt-link>
       </div>
