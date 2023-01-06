@@ -14,7 +14,7 @@
     "@nuxtjs/dotenv": "^1.4.0",
     "@tailwindcss/ui": "^0.3.0",
     "frontmatter-markdown-loader": "^3.5.0",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "vue-template-compiler": "^2.6.11"
   },
   "devDependencies": {
